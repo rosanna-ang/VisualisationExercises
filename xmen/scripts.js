@@ -11,7 +11,7 @@ app.appendChild(container);
 
 
 var request = new XMLHttpRequest();
-request.open('GET', 'http://www.omdbapi.com/?apikey=7a5af064&s=x-men', true);
+request.open('GET', 'https://www.omdbapi.com/?apikey=7a5af064&s=x-men', true);
 request.onload = function () {
 
   // Begin accessing JSON data here
